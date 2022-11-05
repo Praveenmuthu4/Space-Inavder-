@@ -1,0 +1,52 @@
+#background{
+    background-image: url(./assets/4632ed00-ca92-11ea-971d-78aec0b072fa.png);
+    width: 1200px;
+    height:640px;
+}
+#hero{
+    background-image: url(./assets/hero.png);
+    width: 50px;
+    height: 50px; 
+    position: absolute;
+    top:570px;
+    left: 550px;
+}
+
+.enemy{
+    background-image: url(./assets/enemy.png);
+    width: 50px;
+    height: 50px; 
+    position: absolute;
+    top:100px;
+    left: 550px;
+}
+
+.missile{
+    background-image: url(./assets/missile1.png);
+    width: 10px;
+    height: 28px; 
+    position: absolute;
+}
+#missiles{
+    width:1200px;
+    height:640;
+}
+
+#enemies{
+    width:1200px;
+    height:auto;
+}
+.result{
+    background-color: white;
+    font-size: 50px;
+    position: absolute;
+    top:270px;
+    left:28%;
+    padding:10px;
+}
+.restart{
+    top:380px;
+    left:38%;
+    font-size: 22px;
+    background-color:bisque;
+}
